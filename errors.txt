@@ -1,0 +1,10 @@
+src/App.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/CategoryChips.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/FAQ.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/Footer.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/Hero.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/Navbar.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/OrderBuilder.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/TrustStrip.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/WorkShowcase.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/components/ui/SectionHeader.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
