@@ -34,7 +34,7 @@ const PORTFOLIO_ITEMS: MediaItem[] = [
     src: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=800&auto=format&fit=crop", // Wax seal theme
     previewSrc: "/assets/Videos/Custom Wax Seal.mp4",
     fullSrc: "/assets/Videos/Custom Wax Seal.mp4",
-    title: "Custom Wax Seals Process",
+    title: "Custom Wax Seals",
     description:
       "Watch the mesmerizing process of creating our signature custom wax seals. Each seal is hand-stamped to ensure perfection, adding a touch of old-world charm and sophistication to your envelopes. Available in a variety of colors and custom monogram designs.",
     tags: ["Wax Seal", "Handmade", "Custom Monogram"],
@@ -61,15 +61,17 @@ const PORTFOLIO_ITEMS: MediaItem[] = [
       "Custom wax stamps are a beautiful way to elevate your wedding invitations with timeless elegance. Each seal is carefully hand-stamped for a flawless finish, bringing old-world charm and refined sophistication to every envelope. Available in a range of colors and personalized monogram designs, they’re also perfect for branding, cafés, and corporate use.",
     tags: ["Wax Seal", "Handmade", "Custom Monogram"],
   },
-  //   {
-  //     id: 3,
-  //     type: "image",
-  //     src: "https://images.unsplash.com/photo-1607153333879-c174d265f2d2?q=80&w=800&auto=format&fit=crop",
-  //     title: "Premium Envelopes",
-  //     description:
-  //       "Our premium envelopes are more than just packaging; they are the first impression. Available in unmatched textures and colors, from deep velvets to metallic shimmers. We offer custom liners and calligraphy services to complete the look.",
-  //     tags: ["Envelopes", "Texture", "Calligraphy"],
-  //   },
+  {
+    id: 5,
+    type: "video",
+    src: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=800&auto=format&fit=crop", // Wax seal theme
+    previewSrc: "/assets/Videos/Premium Packaging.mp4",
+    fullSrc: "/assets/Videos/Premium Packaging.mp4",
+    title: "Premium Packaging",
+    description:
+      "Our premium packaging uses high-grade materials, reinforced structures, and secure sealing methods to ensure every product arrives flawless and damage-free. Designed for large-volume orders, it maintains consistent quality, durability, and a luxury presentation—perfect for brands that prioritize both safety and sophistication.",
+    tags: ["Wrapping", "Well Wrapping", "Premium Packaging", "Gift Wrapping"],
+  },
   //   {
   //     id: 4,
   //     type: "image",
