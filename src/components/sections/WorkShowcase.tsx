@@ -20,17 +20,6 @@ const PORTFOLIO_ITEMS: MediaItem[] = [
   {
     id: 1,
     type: "video",
-    src: "https://images.unsplash.com/photo-1595967060599-234237f070b1?q=80&w=800&auto=format&fit=crop", // Wedding cardstock theme
-    previewSrc: "/assets/Videos/Wax Seal Creation.mp4",
-    fullSrc: "/assets/Videos/Wax Seal Creation.mp4",
-    title: "Wax Seal Creation",
-    description:
-      "Experience the epitome of elegance with our bespoke wedding invitations. Crafted with premium thick cardstock and intricate detailing, these invites set the perfect tone for your special day. From traditional motifs to modern minimalist designs, we bring your vision to life.",
-    tags: ["Wedding", "Luxury", "Customizable"],
-  },
-  {
-    id: 2,
-    type: "video",
     src: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=800&auto=format&fit=crop", // Wax seal theme
     previewSrc: "/assets/Videos/Custom Wax Seal.mp4",
     fullSrc: "/assets/Videos/Custom Wax Seal.mp4",
@@ -40,18 +29,7 @@ const PORTFOLIO_ITEMS: MediaItem[] = [
     tags: ["Corporates", "Bakers", "Cafes"],
   },
   {
-    id: 3,
-    type: "video",
-    src: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=800&auto=format&fit=crop", // Wax seal theme
-    previewSrc: "/assets/Videos/Envelopes.mp4",
-    fullSrc: "/assets/Videos/Envelopes.mp4",
-    title: "Custom Envelopes",
-    description:
-      "Experience the epitome of elegance with our bespoke wedding invitations. Crafted with premium thick cardstock and intricate detailing, these invites set the perfect tone for your special day. From traditional motifs to modern minimalist designs, we bring your vision to life.",
-    tags: ["Envelopes", "Elegant", "Invitations"],
-  },
-  {
-    id: 4,
+    id: 2,
     type: "video",
     src: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=800&auto=format&fit=crop", // Wax seal theme
     previewSrc: "/assets/Videos/Custom Wax Stamp.mp4",
@@ -61,6 +39,30 @@ const PORTFOLIO_ITEMS: MediaItem[] = [
       "Custom wax stamps are a beautiful way to elevate your wedding invitations with timeless elegance. Each seal is carefully hand-stamped for a flawless finish, bringing old-world charm and refined sophistication to every envelope. Available in a range of colors and personalized monogram designs, they’re also perfect for branding, cafés, and corporate use.",
     tags: ["Seals", "Brands", "Corporates"],
   },
+  {
+    id: 3,
+    type: "video",
+    src: "https://images.unsplash.com/photo-1595967060599-234237f070b1?q=80&w=800&auto=format&fit=crop", // Wedding cardstock theme
+    previewSrc: "/assets/Videos/Wax Seal Creation.mp4",
+    fullSrc: "/assets/Videos/Wax Seal Creation.mp4",
+    title: "Wax Seal Creation",
+    description:
+      "Experience the epitome of elegance with our bespoke wedding invitations. Crafted with premium thick cardstock and intricate detailing, these invites set the perfect tone for your special day. From traditional motifs to modern minimalist designs, we bring your vision to life.",
+    tags: ["Wedding", "Luxury", "Customizable"],
+  },
+
+  {
+    id: 4,
+    type: "video",
+    src: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=800&auto=format&fit=crop", // Wax seal theme
+    previewSrc: "/assets/Videos/beautiful envelopes.mp4",
+    fullSrc: "/assets/Videos/beautiful envelopes.mp4",
+    title: "Custom Envelopes",
+    description:
+      "Experience the epitome of elegance with our bespoke wedding invitations. Crafted with premium thick cardstock and intricate detailing, these invites set the perfect tone for your special day. From traditional motifs to modern minimalist designs, we bring your vision to life.",
+    tags: ["Envelopes", "Elegant", "Invitations"],
+  },
+
   {
     id: 5,
     type: "video",
@@ -143,7 +145,7 @@ Please share pricing and timeline. Thank you!`;
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <SectionHeader
-          title="Our Bulk Portfolio"
+          title="Our Products"
           subtitle="Premium bulk creations designed with precision, personality, and lasting impact."
         />
 
@@ -284,9 +286,6 @@ Please share pricing and timeline. Thank you!`;
 
               {/* Content Side */}
               <div className="w-full md:w-[50%] p-6 lg:p-8 flex flex-col justify-center bg-white">
-                <span className="text-zuboc-dustyRose font-medium tracking-wider uppercase text-xs mb-2">
-                  Project 0{selectedItem.id}
-                </span>
                 <h3 className="text-2xl lg:text-3xl font-bold text-zuboc-neutral-text font-heading leading-tight mb-4">
                   {selectedItem.title}
                 </h3>

@@ -15,21 +15,18 @@ export function Hero() {
         </span>
 
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-heading font-bold text-zuboc-neutral-text mb-6 tracking-tight flex flex-col items-center">
-          <span>Bulk Orders &</span>
+          <span>B2B &</span>
 
           <span
             className="
     inline-block italic
     leading-[1.15]
     pb-[0.1em] pr-[0.12em]
-    bg-gradient-to-r
-    from-[#8e4585]
-    to-[#d8d8d8]
-    bg-clip-text text-transparent
+   
     overflow-visible
   "
           >
-            Business Collaborations
+            Bulk Orders
           </span>
         </h1>
 
@@ -51,7 +48,7 @@ export function Hero() {
             variant="outline"
             className="w-full sm:w-auto text-lg px-8 py-4 group"
           >
-            Bulk Order
+            for enquiry
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>
         </div>

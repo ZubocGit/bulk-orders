@@ -64,9 +64,7 @@ export function OrderBuilder() {
               {/* Header Row */}
               <div className="hidden sm:grid grid-cols-12 gap-4 text-sm font-medium text-zuboc-neutral-muted px-2">
                 <div className="col-span-1 border-b pb-2">#</div>
-                <div className="col-span-7 border-b pb-2">
-                  Product / Service Name
-                </div>
+                <div className="col-span-7 border-b pb-2">Product Name</div>
                 <div className="col-span-3 border-b pb-2">Quantity</div>
                 <div className="col-span-1 border-b pb-2"></div>
               </div>
