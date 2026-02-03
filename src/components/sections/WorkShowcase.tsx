@@ -26,7 +26,7 @@ const PORTFOLIO_ITEMS: MediaItem[] = [
     title: "Wax Seal Creation",
     description:
       "Experience the epitome of elegance with our bespoke wedding invitations. Crafted with premium thick cardstock and intricate detailing, these invites set the perfect tone for your special day. From traditional motifs to modern minimalist designs, we bring your vision to life.",
-    tags: ["Wedding", "Cardstock", "Gold Foil"],
+    tags: ["Wedding", "Luxury", "Customizable"],
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const PORTFOLIO_ITEMS: MediaItem[] = [
     title: "Custom Wax Seals",
     description:
       "Watch the mesmerizing process of creating our signature custom wax seals. Each seal is hand-stamped to ensure perfection, adding a touch of old-world charm and sophistication to your envelopes. Available in a variety of colors and custom monogram designs.",
-    tags: ["Wax Seal", "Handmade", "Custom Monogram"],
+    tags: ["Corporates", "Bakers", "Cafes"],
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ const PORTFOLIO_ITEMS: MediaItem[] = [
     title: "Custom Envelopes",
     description:
       "Experience the epitome of elegance with our bespoke wedding invitations. Crafted with premium thick cardstock and intricate detailing, these invites set the perfect tone for your special day. From traditional motifs to modern minimalist designs, we bring your vision to life.",
-    tags: ["Envelopes", "Cardstock", "Gold Foil"],
+    tags: ["Envelopes", "Elegant", "Invitations"],
   },
   {
     id: 4,
@@ -59,7 +59,7 @@ const PORTFOLIO_ITEMS: MediaItem[] = [
     title: "Custom Wax Stamps",
     description:
       "Custom wax stamps are a beautiful way to elevate your wedding invitations with timeless elegance. Each seal is carefully hand-stamped for a flawless finish, bringing old-world charm and refined sophistication to every envelope. Available in a range of colors and personalized monogram designs, they’re also perfect for branding, cafés, and corporate use.",
-    tags: ["Wax Seal", "Handmade", "Custom Monogram"],
+    tags: ["Seals", "Brands", "Corporates"],
   },
   {
     id: 5,
@@ -222,9 +222,6 @@ Please share pricing and timeline. Thank you!`;
                 {/* Text Content Section */}
                 <div className="w-full md:w-1/2 space-y-4 lg:space-y-5">
                   <div className="space-y-1 lg:space-y-2">
-                    <span className="text-zuboc-dustyRose font-medium tracking-wider uppercase text-xs lg:text-sm">
-                      Project 0{item.id}
-                    </span>
                     <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-zuboc-neutral-text font-heading leading-tight">
                       {item.title}
                     </h3>
