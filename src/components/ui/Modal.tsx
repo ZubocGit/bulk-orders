@@ -27,7 +27,7 @@ export function Modal({ isOpen, onClose, children }: ModalProps) {
         className="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity"
         onClick={onClose}
       />
-      <div className="relative z-10 w-full max-w-4xl max-h-[90vh] overflow-auto rounded-2xl bg-white shadow-2xl animate-in fade-in zoom-in duration-200">
+      <div className="relative z-10 w-full max-w-[20rem] max-h-[33rem] overflow-auto rounded-2xl bg-white shadow-2xl animate-in fade-in zoom-in duration-200">
         <button
           onClick={onClose}
           className="absolute right-4 top-4 rounded-full bg-black/10 p-2 text-white hover:bg-black/20 z-50"
