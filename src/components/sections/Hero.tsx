@@ -15,19 +15,7 @@ export function Hero() {
         </span>
 
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-heading font-bold text-zuboc-neutral-text mb-6 tracking-tight flex flex-col items-center">
-          <span>B2B &</span>
-
-          <span
-            className="
-    inline-block italic
-    leading-[1.15]
-    pb-[0.1em] pr-[0.12em]
-   
-    overflow-visible
-  "
-          >
-            Bulk Orders
-          </span>
+          <span>B2B & Bulk Orders</span>
         </h1>
 
         <p className="max-w-2xl mx-auto text-lg md:text-xl text-zuboc-neutral-muted mb-10 leading-relaxed">
