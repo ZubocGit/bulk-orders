@@ -18,7 +18,7 @@ export function WhatsAppFAB() {
         className="bg-[#f0f0f0] text-zuboc-neutral-text text-sm font-medium px-4 py-2.5 rounded-full shadow-lg border border-gray-200 opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none whitespace-nowrap translate-x-4 group-hover:translate-x-0"
         aria-hidden="true"
       >
-        Still Confused?!
+        Still Confused?
       </span>
 
       {/* Simplified WhatsApp Icon matching the photo */}
