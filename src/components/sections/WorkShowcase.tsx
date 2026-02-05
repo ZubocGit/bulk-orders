@@ -74,15 +74,6 @@ const PORTFOLIO_ITEMS: MediaItem[] = [
       "Our premium packaging uses high-grade materials, reinforced structures, and secure sealing methods to ensure every product arrives flawless and damage-free. Designed for large-volume orders, it maintains consistent quality, durability, and a luxury presentation—perfect for brands that prioritize both safety and sophistication.",
     tags: ["Wrapping", "Well Wrapping", "Premium Packaging", "Gift Wrapping"],
   },
-  //   {
-  //     id: 4,
-  //     type: "image",
-  //     src: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=800&auto=format&fit=crop",
-  //     title: "Gold Foil Stamping",
-  //     description:
-  //       "Add a luxurious shine with our precision gold foil stamping. This technique uses heat and pressure to apply metallic foil, creating a stunning visual and tactile effect. Perfect for highlighting names, dates, or intricate patterns on your stationery.",
-  //     tags: ["Gold Foil", "Letterpress", "Luxury"],
-  //   },
 ];
 
 export function WorkShowcase() {
@@ -180,6 +171,17 @@ Please share pricing and timeline. Thank you!`;
                           playsInline
                           loop
                           preload="metadata"
+                          disablePictureInPicture
+                          controls={false}
+                          onLoadedMetadata={(e) => {
+                            const v = e.currentTarget;
+                            try {
+                              v.muted = true;
+                              v.playsInline = true;
+                              v.currentTime = 0.01;
+                              v.pause();
+                            } catch (err) {}
+                          }}
                         />
                       ) : (
                         // Render Image

@@ -138,7 +138,7 @@ export function OrderBuilder() {
               </div>
 
               {/* Live Preview */}
-              <div className="mt-8 p-4 bg-zuboc-neutral-bg rounded-lg border border-zuboc-neutral-border text-xs md:text-sm text-zuboc-neutral-muted font-mono leading-relaxed relative overflow-hidden">
+              {/* <div className="mt-8 p-4 bg-zuboc-neutral-bg rounded-lg border border-zuboc-neutral-border text-xs md:text-sm text-zuboc-neutral-muted font-mono leading-relaxed relative overflow-hidden">
                 <div className="absolute top-0 right-0 px-2 py-1 bg-zuboc-neutral-border text-[10px] uppercase font-bold tracking-wider rounded-bl-lg">
                   Preview
                 </div>
@@ -163,7 +163,7 @@ export function OrderBuilder() {
                   Please share pricing, customization options, and delivery
                   timeline. Thank you!
                 </p>
-              </div>
+              </div> */}
             </div>
           </Card>
         </div>
