@@ -21,7 +21,7 @@ export function Navbar() {
       }`}
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
-        <a href="#home">
+        <a href="zuboc.com">
           <img
             src="assets/Icons/zuboc_logo.svg"
             alt="Zuboc Logo"
