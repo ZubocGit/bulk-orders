@@ -4,6 +4,14 @@ export function WhatsAppFAB() {
   const whatsappUrl =
     "https://wa.me/918891343496?text=Hello%20Zuboc%2C%20I%20would%20like%20to%20enquire%20about%20bulk%20orders.";
 
+  const handleClick = () => {
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'conversion', {
+        'send_to': 'AW-16693364295/4xAeCI-msZIcEMeMgpg-'
+      });
+    }
+  };
+
   return (
     <a
       id="dn-wa"
@@ -12,6 +20,7 @@ export function WhatsAppFAB() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
+      onClick={handleClick}
     >
       {/* WhatsApp Pill Label (Tooltip on THE LEFT) */}
       <span

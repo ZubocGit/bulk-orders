@@ -47,12 +47,20 @@ export function OrderBuilder() {
     return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
   };
 
+  const handleConversionClick = () => {
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'conversion', {
+        'send_to': 'AW-16693364295/4xAeCI-msZIcEMeMgpg-'
+      });
+    }
+  };
+
   return (
     <section
       id="bulk-order"
       className="py-20 bg-gradient-to-b from-white to-zuboc-creamyYellow/30"
     >
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6"> 
         <SectionHeader
           title="Build Your Bulk Order"
           subtitle="Add multiple items to your list and get a combined quote instantly."
@@ -125,6 +133,7 @@ export function OrderBuilder() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`w-full sm:w-auto ${!isValid ? "pointer-events-none opacity-50" : ""}`}
+                    onClick={isValid ? handleConversionClick : undefined}
                   >
                     <Button
                       variant="primary"
